@@ -1,0 +1,54 @@
+
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+it gave me a new way to look up changes made rather than going line by line like
+I use to.
+
+file changes can be hard to track
+but both linux and windows provide ways to view changes:
+ windows : fc games_old.js games_new.js
+ linux   : diff -u games_old.js games_new.js
+
+both produce changes made to relevant files
+
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    it was easy to sport typos and changes made
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    it could increase the pace at which I debug my code
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    manually choosen commits are based logical changes and with them are messages
+    explaining what the change achieved or solved as opposed google docs that 
+    make little to no-sense to me.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    It makes more sense to code since most code is related and changes in one part 
+    affects the other so tracking them separately will just cramp one's history log
+    with changes that do not make sense on their own.
+How can you use the commands git log and git diff to view the history of files?
+
+    git log - shows a list of commits made
+    git diff commitIdOld commitIdNew - shows a list of changes made b2n the 2 commits
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Version control reverts changes made through git checkout 
+    which reberates me from the fear of identifing changes I make at a later time ie
+    when bugs crop up. 
+    Exploration and risk taking making me a good programmer.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    version control for all my projects since it covers promblems that I have been that
+    I have been encountering. Like wasting the hour in each try to trace changes made on a previous day
+    Thanks for opening my eyes.
