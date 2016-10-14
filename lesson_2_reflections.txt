@@ -17,6 +17,8 @@ What value do you think it offers?
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+	adding files to staging area using git add filename and commiting to repository
+	once using git commit once logical amount of files have been changed.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
