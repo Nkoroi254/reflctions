@@ -1,0 +1,4 @@
+git init 
+	creates a new repository
+git status 
+	evaluates status of current repository
