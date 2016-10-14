@@ -22,11 +22,30 @@ change?
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+	Branches are helpfull whenever you want to make a diffrent version from the main project
+	but still keep supporting the main project eg 2 game modes easy and hard where hard is the 
+	master branch and easy-mode branch habours the easy mode but all easy has done is 
+	changed afew values of the master branch variables but without affecting the master branch
+	to create an easier version of the game. 
+
+	Create a branch any time you are doing something diffrent. Think of it as 
+	context switching. eg have master branch be production code that is code you
+	do not expect to break and have a development branch ie experimental branch that 
+	expect to break. 
 
 How do the diagrams help you visualize the branch structure?
+	they are easy to trace the changes made to branches as oppose to a
+	banch of text which is harder to track
 
 What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?    
+the diagram the way we do?  
+	result of merging is reconcilling two branches to one.
+	diagram is to show affected commits by the merge.  
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+	pros 
+		it can identify changes merge them with ease
+		it spots conflicts and marks them for you to resolve b4 merging
+	cons
+		it can't resolve conflicts on its own
